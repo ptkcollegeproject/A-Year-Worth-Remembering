@@ -76,6 +76,10 @@ nav {
   .nav_links li {
     opacity: 0;
   }
+  
+  .nav_links a {
+  font-size: 16px;
+}
 
   .burger {
     display: block;

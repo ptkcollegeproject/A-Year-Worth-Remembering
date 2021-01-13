@@ -97,6 +97,13 @@ p {
   padding-top: 2%;
 }
 
+.single-column {
+  display: inline;
+  float: none;
+  width: 33.33%;
+  padding-top: 2%;
+}
+
 .column img {
   border: 1px solid black;
 }
@@ -105,7 +112,16 @@ p {
   font-size: 40px;
 }
 
+.single-column h2 {
+  font-size: 40px;
+}
+
 .column p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.single-column p {
   font-size: 20px;
   text-align: center;
 }
@@ -114,7 +130,7 @@ p {
   content: "";
   display: table;
   clear: both;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .row h2 {
